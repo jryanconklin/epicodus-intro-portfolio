@@ -1,11 +1,14 @@
 
 /* Type Selectors Need to study these more; I wasn't able to get these to work as reliably as class selectors */
 
+/* Jumbotron */
 
+.jumbotron {
+  text-align: center;
+  padding: 100px;
+}
 
-/* Class Selectors */
-
-.centralImage {
+.jumbotronImage {
   max-width: 200px;
   max-height: 200px;
   margin-left: auto;
@@ -13,9 +16,14 @@
   padding: 10px;
 }
 
-.test {
+/* About Me Selectors */
+
+.aboutMe {
   text-align: center;
 }
+
+
+/* Main Body */
 
 .mainBodyContainer {
   max-width: 950px;
@@ -41,11 +49,4 @@
 
 .socialButtons {
   max-width: 950px;
-}
-
-/* Jumbotron */
-
-.jumbotron {
-  text-align: center;
-  padding: 100px;
 }

@@ -9,34 +9,22 @@
     <!--need to find out why the media="screen" selector is required. It's different in the Epicodus CSS lesson than the Treehouse lesson on Bootstrap. Keeping Treehouse method as I'm assuming this contributes toward "responsive" design-->
   </head>
   <body>
-
 <!--Top Bar - Align Name Left - Add Navigation if More Pages Later-->
-
     <div class="container">
       <header class="page-header">
       <h4>J. Ryan Conklin</h4>
       </header>
     </div>
-
-
 <!--End Top Bar-->
-
-<!--Central Image - Use Float / Bootstrap-->
+<!--Jumbotron-->
     <div class="container">
-        <div class="jumbotron">
-          <h1>My Portfolio</h1>
-          <img class="img-responsive img-circle centralImage" src="img/ryan.jpg" alt="photo of author">
-          <p class="lead">This website is designed as a way to show off my work and what I've learned so far at <strong>Epicodus</strong>! I'd love your feedback if you have time for it. I can be reached at <a href="mailto:jryanconklin@gmail.com">here!</a></p>
-        </div>
-
-<!--End Central Image-->
-
-<!--About Me Section - Try to Figure Out Modal from Treehouse Lesson - js script required?-->
-          <div>
-            <p>Modal Test</p>
-          </div>
+      <div class="jumbotron">
+        <h1>My Portfolio</h1>
+        <img class="img-responsive img-circle jumbotronImage" src="img/ryan.jpg" alt="photo of author">
+        <p class="lead">This website is designed as a way to show off my work and what I've learned so far at <strong>Epicodus</strong>! I'd love your feedback if you have time for it. I can be reached <a href="mailto:jryanconklin@gmail.com"><em>here!</em></a></p>
+      </div>
     </div>
-<!--End About Me-->
+<!--End Jumbotron-->
 
 <!--Main Content - Description of Epicodus Projects - Highlight 2-->
     <div class="container mainBodyContainer">
@@ -64,10 +52,16 @@
         </div>
       </div>
     </div>
-
-
 <!--End Main Content-->
+<!--About Me-->
+    <div class="container mainBodyContainer">
+      <span class="aboutMe">
+        <h3>About Me</h3>
+        <p>After a diverse career in Real Estate, Energy Efficiency Consulting and even micro-distilling, I've decided to re-focus my career on working with my first love: computers! I'm very excited to be at Epicodus and to be learning everything I can! In my spare time, I play board games and other table-top games. I enjoy painting miniatures and other geeky hobbies!</p>
+      </span>
+    </div>
 
+<!--End About Me-->
 <!--Footer - Link to Twitter and LinkedIn Possibly?-->
       <hr>
         <div class="container socialButtons">
@@ -78,12 +72,6 @@
             </p>
           </div>
         </div>
-<!--Footer - Link to Twitter and LinkedIn Possibly?-->
-
+<!--End Footer - Link to Twitter and LinkedIn Possibly?-->
   </body>
-
-
-
-
-
 </html>
