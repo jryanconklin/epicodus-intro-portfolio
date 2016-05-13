@@ -10,7 +10,7 @@ _This is a website created using everything learned in the block of Epicodus con
 
 ## Setup/Installation Requirements
 
-* _You can view of copy of the webpage on GitHub pages at [jryanconklin.github.io/portfolio]_
+* _You can view of copy of the webpage on GitHub pages at http://jryanconklin.github.io/portfolio_
 
 
 ## Known Bugs
