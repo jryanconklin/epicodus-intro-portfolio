@@ -1,7 +1,29 @@
 
+/* Type Selectors */
+
+h4 {
+  padding-bottom: 5px;
+}
+
+/* Class Selectors */
+
 .test {
   text-align: center;
 }
+
+.mainBodyContainer {
+  max-width: 950px;
+  background-color: lightgreen;
+}
+
+.mainBodyImage {
+  margin: 6px;
+  border: 1px dotted green;
+  padding: 2px;
+  background-color: yellow;
+}
+
+/* Jumbotron */
 
 .jumbotron {
   text-align: center;
