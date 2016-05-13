@@ -4,8 +4,8 @@
   <head>
     <title>J. Ryan Conklin's Portfolio Page</title>
     <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="css/style.css" rel="styleshet" media="screen">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!--need to find out why the media="screen" selector is required. It's different in the Epicodus CSS lesson than the Treehouse lesson on Bootstrap. Keeping Treehouse method as I'm assuming this contributes toward "responsive" design-->
   </head>
   <body>
@@ -17,20 +17,24 @@
 <!--End Top Bar-->
 
 <!--Central Image - Use Float / Bootstrap-->
+    <div class="jumbotron">
+      <h1>My Portfolio</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
 
+    </div>
 
 <!--End Central Image-->
 
 <!--About Me Section - Try to Figure Out Modal from Treehouse Lesson - js script required?-->
 
-
+      <p class="test">text that should be altered with the css page.</p>
 
 <!--End About Me-->
 
 <!--Main Content - Description of Epicodus Projects - Highlight 2-->
     <div class="container">
-      <div>
-        <h2>My Epicodus Projects</h2>
+      <div class="page-header">
+        <h2>My Epicodus Projects:</h2>
         <div class="row">
           <div class="col-xs-4">
             <h4>Cats, Cats, Cats... Cats!</h4>
