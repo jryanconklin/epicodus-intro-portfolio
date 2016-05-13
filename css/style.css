@@ -1,11 +1,17 @@
 
-/* Type Selectors */
+/* Type Selectors Need to study these more; I wasn't able to get these to work as reliably as class selectors */
 
-h4 {
-  padding-bottom: 5px;
-}
+
 
 /* Class Selectors */
+
+.centralImage {
+  max-width: 200px;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
 
 .test {
   text-align: center;
@@ -13,18 +19,33 @@ h4 {
 
 .mainBodyContainer {
   max-width: 950px;
-  background-color: lightgreen;
+  background-color: #ccffcc;
+}
+
+.mainBodyHeader {
+  margin: 4px;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .mainBodyImage {
-  margin: 6px;
-  border: 1px dotted green;
-  padding: 2px;
-  background-color: yellow;
+  margin-top: 10px;
+  border: 1px solid green;
+  padding: 8px;
+  background-color: lightyellow;
+}
+
+.mainBodyText {
+  padding-top: 10px;
+}
+
+.socialButtons {
+  max-width: 950px;
 }
 
 /* Jumbotron */
 
 .jumbotron {
   text-align: center;
+  padding: 100px;
 }
